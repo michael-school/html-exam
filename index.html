@@ -9,6 +9,7 @@
         body {
             background-color: #ECEBF3;
             font-family: sans-serif;
+            margin: 0;
         }
 
         header {
@@ -18,13 +19,13 @@
 
 
         h1 {
+            margin-top: 1.5em;
             color: #444054;
-            font-size: 3em;
+            font-size: 3.5em;
         }
 
         table {
-            margin-left: 15%;
-            margin-right: 85%;
+            margin-inline: 15%;
             width: 70%;
             border: 1px solid black;
             padding-block: 1%;
@@ -42,6 +43,7 @@
         }
 
         #headings {
+            padding-inline: 0;
             list-style: none;
         }
 
@@ -91,16 +93,19 @@
 
         h2 {
             color: #ECEBF3;
-            padding-left: 1em;
+            padding-inline: 4em;
             padding-block: 0.75em;
             font-size: 2em;
-            margin-right: 1em;
+            margin-block: 1em;
+            margin-inline: 0;
+            position: sticky;
+            top: 0em;
         }
 
         li p {
+            display: block;
             font-size: 1.75em;
-            margin-left: 10%;
-            margin-right: 13.5%;
+            margin-inline: 15%;
             text-align: justify;
         }
 
@@ -244,8 +249,9 @@
                     goal by allowing developers and tinkerers to add the Assistant to their hardware, ideally in
                     Raspberry Pi prototypes.</p>
                 <div class="image">
-                    <a target="_blank" href="https://developers.googleblog.com/2017/04/introducing-google-assistant-sdk.html"><img
-                        src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
+                    <a target="_blank"
+                        href="https://developers.googleblog.com/2017/04/introducing-google-assistant-sdk.html"><img
+                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
                 </div>
                 <p>The <em>SDK</em> has two major working parts: a local Python application and the cloud-based Google
                     Assistant Service. The Python application records the speech and sends it to the Assistant Service.
