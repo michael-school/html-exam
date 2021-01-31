@@ -103,19 +103,35 @@
         }
 
         li p {
-            display: block;
             font-size: 1.75em;
             margin-inline: 15%;
             text-align: justify;
         }
 
-        .image img {
-            width: 25em;
+        figure img {
+            height: 25em;
         }
 
-        .image {
+        figure {
             text-align: center;
             padding-block: 2em;
+        }
+
+        figcaption {
+            margin-top:1.5em;
+            color:#444054;
+            font-weight:bold;
+        }
+        figcaption > a {
+            color:inherit;
+        }
+
+        #home .sq-image {
+            border: 3pt solid #F49B56;
+        }
+
+        #sdk .sq-image {
+            border: 3pt solid #68A691;
         }
     </style>
 </head>
@@ -152,11 +168,12 @@
                     accessibility and ease of use and often decreasing danger. While it is significantly simpler than
                     the Google Assistant, its developers tackled many of the same issues faced today. Among them are
                     enormous vocabularies, unpredictable noise conditions, and unfamiliar accents. </p>
-                <div class="image">
-                    <a target="_blank"
+                <figure>
+                    <a target="_blank" title="Google Search by Voice: A case study"
                         href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36340.pdf"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                            src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png"></a>
+                    <figcaption>Google, Public domain, via Wikimedia Commons</figcaption>
+                </figure>
                 <p>The original <em>Google Voice Search</em> used either buttons (physical or on a touch screen) or
                     gestures as a trigger. When buttons were used, endpointer software was most often used to recognize
                     the end of speech, silence being the key signal. Manual endpoints included a second press of a
@@ -179,10 +196,11 @@
                     multiple factors like appointment times and travel conditions to create reminders. If any card is
                     deemed irrelevant by the user, it can be easily dismissed with a swipe to the left or right or
                     tapped to view more detailed information.</p>
-                <div class="image">
-                    <a target="_blank" href="https://www.digitaltrends.com/mobile/what-is-google-now/"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                <figure>
+                    <a target="_blank" title="How to get the most out of Google Now" href="https://www.digitaltrends.com/mobile/what-is-google-now/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/54/Google_Now_logo.webp"></a>
+                    <figcaption>Google, Public domain, via Wikimedia Commons</figcaption>
+                </figure>
                 <p>Of course, being an update to Voice Search, <em>Google Now</em> came with a plethora of voice
                     commands and features that began to shape it into the assistant we know today. While its predecessor
                     could only display search results, <em>Google Now</em> could control functions of the phone, such as
@@ -203,10 +221,11 @@
                     when it detected a need for information. For example, if someone mentions going out to eat, it might
                     produce a small label that reads <q>Restaurants Nearby</q> and, when tapped, will prompt the AI to
                     provide a list of restaurants and their related information. </p>
-                <div class="image">
-                    <a target="_blank" href="https://www.digitaltrends.com/mobile/google-allo-review/"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                <figure>
+                    <a target="_blank" title="Hands-on: Google Allo" href="https://www.digitaltrends.com/mobile/google-allo-review/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Allo_Logo.png"></a>
+                    <figcaption>Google, Public domain, via Wikimedia Commons</figcaption>
+                </figure>
                 <p>Google also made sure to add personality to <em>Allo’s new AI</em> by bringing in Google Doodle head
                     Ryan Germick and ex-Pixar animator Emma Coats, who made it their goal to turn the Assistant into a
                     character. They implemented humorous responses and made its speech more casual. When asked about
@@ -228,10 +247,11 @@
                     products; however, within a few months, it had control of over 5,000 devices. To make life even
                     easier, Google implemented Routines. Once a Routine is established, a set list of actions can be
                     triggered at a certain time or with a single command.</p>
-                <div class="image">
-                    <a target="_blank" href="https://www.digitaltrends.com/smart-home-reviews/google-home-review/"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                <figure>
+                    <a target="_blank" title="Google Home Review" href="https://www.digitaltrends.com/smart-home-reviews/google-home-review/"><img class="sq-image"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Google_Home_sitting_on_table.jpg"></a>
+                    <figcaption>NDB Photos, <a target="_blank" href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, via Wikimedia Commons</figcaption>
+                </figure>
                 <p>The <em>Google Home</em> also works well with media as It can cast video to a TV using a Chromecast
                     and play music and podcasts straight through its speakers. It supports popular services like
                     YouTube, Netflix, Google Play, Spotify, and Pandora. However, its audio quality falls short of that
@@ -248,11 +268,12 @@
                     <em>the Google Assistant Software Development Kit (<abbr>SDK</abbr>)</em>, which accomplished its
                     goal by allowing developers and tinkerers to add the Assistant to their hardware, ideally in
                     Raspberry Pi prototypes.</p>
-                <div class="image">
-                    <a target="_blank"
+                <figure>
+                    <a target="_blank" title="Introducing the Google Assistant SDK"
                         href="https://developers.googleblog.com/2017/04/introducing-google-assistant-sdk.html"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                            src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Assistant_logo.png"></a>
+                    <figcaption>Alphabet Inc, Public domain, via Wikimedia Commons</figcaption>
+                </figure>
                 <p>The <em>SDK</em> has two major working parts: a local Python application and the cloud-based Google
                     Assistant Service. The Python application records the speech and sends it to the Assistant Service.
                     The Service then analyzes the speech to determine the request and sends a response. Finally, the
@@ -263,10 +284,11 @@
                     mocktails mixer. The user pushes a button and makes a drink request, and the mixer will make small
                     talk while it works on the drink. For example, it might ask you if you would like to hear about the
                     weather. It is only a small image of the potential of Google Assistant integration.</p>
-                <div class="image">
-                    <a target="_blank" href="https://github.com/Deeplocal/mocktailsmixer"><img
-                            src="https://www.godisinthetvzine.co.uk/wp-content/uploads/2020/06/IMG_20200602_120716_501.jpg"></a>
-                </div>
+                <figure>
+                    <a target="_blank" title="Google Assistant SDK Demo: Mocktails Mixer" href="https://github.com/Deeplocal/mocktailsmixer"><img class="sq-image"
+                            src="https://github.com/Deeplocal/mocktailsmixer/blob/master/hardware/photos/hero.jpg?raw=true"></a>
+                    <figcaption>Copyright (c) 2017 Deeplocal, Inc., <a href="https://github.com/Deeplocal/mocktailsmixer/blob/master/LICENSE">MIT License</a></figcaption>
+                </figure>
                 <p>Immediately after the release, large audio equipment manufacturers like JBL and LG jumped at the
                     chance to add the Assistant to their products to create lines of smart speakers and headphones.
                     Today almost every medium-to-high-end personal audio device lets the user easily access some virtual
